@@ -1,0 +1,197 @@
+.header {
+    height: 70px;
+    font-family: 'Rubik', sans-serif;
+    text-align: center;
+    font-weight: bold;
+    font-size: large;
+}
+
+.navText {
+    font-family: 'Rubik', sans-serif;
+    text-align: center;
+}
+
+.navBorder {
+    border: 2px solid white;
+
+}
+
+.navBorder:hover {
+    border: 2px solid rgb(0, 176, 240);
+    border-radius: 7px;
+    transition: 0.5s ease;
+    
+}
+
+.navBox1 {
+    height: 70px;
+    width: 230px;
+    padding: 10px;
+    margin-right: 10px;
+}
+
+.navBox2 {
+    padding: 20px;
+    height: 70px;
+    width: 110px;
+    vertical-align: middle;
+    position: relative;
+    text-align: center;
+    margin-right: 10px;
+}
+
+
+.navFormat {
+    margin-left: 0px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.jumboStyle {
+    /* border-top: 2px solid rgb(89,89,89);
+    border-bottom: 2px solid rgb(89,89,89); */
+    margin-top: 10px;
+    margin-bottom: 25px;
+    width: 100%;
+    background-image: url("https://i.imgur.com/ykCOpMH.png");
+    background-size: cover;
+    font-family: 'Rubik', sans-serif;
+    height: 400px;
+    padding-top: 30px;
+}
+
+.jumboTitle {
+    color: rgb(0, 176, 240);
+
+}
+
+.bold {
+    font-weight: bold;
+}
+
+ul.jumboList {  
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    margin-top: 30px;
+}
+
+li.jumboItem {
+    background: url("https://i.imgur.com/WAjzBFn.png") no-repeat left top;
+    height: 45px;
+    padding-left: 44px;
+    padding-top: px;
+    font-size: larger;
+    color: rgb(86, 226, 0);
+    font-weight: bold;
+}
+
+.cardStyle {
+    margin-bottom: 10px;
+
+}
+
+.card1 {
+    width: 24.1241%;
+    float: left;
+    margin: 5px;
+    border: 0px solid rgb(0, 176, 240);
+    margin-bottom: 25px;
+    text-align: center;
+    font-family: 'Rubik', sans-serif;
+    font-weight: bold;
+
+}
+
+.cardContainer {
+    margin: 0px;
+    width: auto;
+}
+
+.indexInformation {
+    font-family: 'Rubik', sans-serif;
+
+}
+
+.indexImage {
+    float: right;
+    margin-left: 35px;
+    width: 20%;
+}
+
+.indexContact {
+    float: right;
+    width: 45%;
+    margin-bottom: 25px;
+}
+
+.indexContainer {
+    overflow: auto;
+    padding: 0px;
+}
+
+.clearfix {
+    display: inline-block;
+    padding: 0px;
+}
+
+.pageFooter {
+    
+    height: 200px;
+}
+
+.footer {
+    font-family: 'Rubik', sans-serif;
+
+}
+
+.footerLeft {
+    font-family: 'Rubik', sans-serif;
+    padding-top: 20px;
+    box-sizing: border-box;
+    float: left;
+    width: 50%
+}
+
+.footerLeft > ul {
+    float: left;
+    margin: 10Px;
+    padding-left: 10px;
+    height: 100%;
+    padding-right: 50px;
+    font-family: 'Rubik', sans-serif;
+    
+
+
+}
+
+.footerLeft > ul > li > a {
+    color: black;
+}
+
+.footerRight {
+    float: left;
+    box-sizing: border-box;
+    padding-top: 20px;
+    font-family: 'Rubik', sans-serif;
+    width: 50%
+}
+
+.address {
+    margin-top: 25px;
+
+}
+
+.footerRight > div {
+    float: left;
+    padding-right:50px;
+
+}
+
+.footerRight > div > ul {
+    margin-top: 48px;
+    list-style-type: none;
+    padding-left: 10px;
+    box-sizing: border-box;
+    
+}
